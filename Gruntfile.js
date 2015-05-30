@@ -80,6 +80,14 @@ module.exports = function (grunt) {
                 }, {
                     expand: true,
                     dot: true,
+                    cwd: 'bower_components/bootstrap',
+                    dest: 'dist',
+                    src: [
+                        'fonts/*'
+                    ]
+                }, {
+                    expand: true,
+                    dot: true,
                     dest: 'dist',
                     src: [
                         'README.md',
