@@ -4,7 +4,6 @@
 *.DS_Store
 
 #compiled css
-*main.css
 .tmp
 node_modules
 bower_components
