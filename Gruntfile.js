@@ -109,7 +109,6 @@ module.exports = function (grunt) {
                     livereload: 35729,
                     middleware: function (connect) {
                         return [
-                            connect.static('.tmp'), //.tmp is merged to the root
                             connect().use(
                                 '/bower_components',
                                 connect.static('./bower_components')
@@ -148,7 +147,6 @@ module.exports = function (grunt) {
     grunt.registerTask('build', [
         'clean:dist',
         'wiredep',
-        'sass',
         'imagemin',
         'copy',
         'useminPrepare',
