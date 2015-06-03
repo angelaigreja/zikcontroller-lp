@@ -264,12 +264,12 @@ fieldset[disabled] .btn-xl.active {
 
 header {
     text-align: center;
-    color: #39362a;
     background-attachment: scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    background: radial-gradient(white, gray);
 }
 
 header .intro-text {
